@@ -1,6 +1,6 @@
 import Dependencies._
 
-organization := "com.Gabe.Church"
+organization := "com.gabechurch"
 
 scalaVersion := "2.11.8"
 

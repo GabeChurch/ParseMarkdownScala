@@ -1,4 +1,4 @@
-package com.Gabe.Church.ParseMarkdown
+package com.gabechurch.ParseMarkdown
 
 import java.util.Arrays
 import com.vladsch.flexmark._
