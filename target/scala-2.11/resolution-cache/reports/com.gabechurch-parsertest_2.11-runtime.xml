@@ -1,0 +1,668 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="com.gabechurch"
+		module="parsertest_2.11"
+		revision="0.1.0"
+		conf="runtime"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20171213211631"/>
+	<dependencies>
+		<module organisation="com.vladsch.flexmark" name="flexmark-all">
+			<revision name="0.28.16" status="release" pubdate="20171207152015" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<license name="BSD 2-Clause License" url="http://opensource.org/licenses/BSD-2-Clause"/>
+				<metadata-artifact status="no" details="" size="15537" time="0" location="/root/.ivy2/cache/com.vladsch.flexmark/flexmark-all/ivy-0.28.16.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-all/0.28.16/flexmark-all-0.28.16.pom"/>
+				<caller organisation="com.gabechurch" name="parsertest_2.11" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="flexmark-all" type="jar" ext="jar" status="no" details="" size="2118" time="0" location="/root/.ivy2/cache/com.vladsch.flexmark/flexmark-all/jars/flexmark-all-0.28.16.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-all/0.28.16/flexmark-all-0.28.16.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.vladsch.flexmark" name="flexmark-youtrack-converter">
+			<revision name="0.28.16" status="release" pubdate="20171207152004" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="43">
+				<license name="BSD 2-Clause License" url="http://opensource.org/licenses/BSD-2-Clause"/>
+				<metadata-artifact status="no" details="" size="11198" time="0" location="/root/.ivy2/cache/com.vladsch.flexmark/flexmark-youtrack-converter/ivy-0.28.16.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-youtrack-converter/0.28.16/flexmark-youtrack-converter-0.28.16.pom"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-all" conf="default, compile, runtime, master" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<artifacts>
+					<artifact name="flexmark-youtrack-converter" type="jar" ext="jar" status="no" details="" size="40540" time="0" location="/root/.ivy2/cache/com.vladsch.flexmark/flexmark-youtrack-converter/jars/flexmark-youtrack-converter-0.28.16.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-youtrack-converter/0.28.16/flexmark-youtrack-converter-0.28.16.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.vladsch.flexmark" name="flexmark-profile-pegdown">
+			<revision name="0.28.16" status="release" pubdate="20171207151955" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="42">
+				<license name="BSD 2-Clause License" url="http://opensource.org/licenses/BSD-2-Clause"/>
+				<metadata-artifact status="no" details="" size="13661" time="0" location="/root/.ivy2/cache/com.vladsch.flexmark/flexmark-profile-pegdown/ivy-0.28.16.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-profile-pegdown/0.28.16/flexmark-profile-pegdown-0.28.16.pom"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-all" conf="default, compile, runtime, master" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<artifacts>
+					<artifact name="flexmark-profile-pegdown" type="jar" ext="jar" status="no" details="" size="6846" time="0" location="/root/.ivy2/cache/com.vladsch.flexmark/flexmark-profile-pegdown/jars/flexmark-profile-pegdown-0.28.16.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-profile-pegdown/0.28.16/flexmark-profile-pegdown-0.28.16.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.vladsch.flexmark" name="flexmark-pdf-converter">
+			<revision name="0.28.16" status="release" pubdate="20171207152010" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="33">
+				<license name="BSD 2-Clause License" url="http://opensource.org/licenses/BSD-2-Clause"/>
+				<metadata-artifact status="no" details="" size="11595" time="0" location="/root/.ivy2/cache/com.vladsch.flexmark/flexmark-pdf-converter/ivy-0.28.16.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-pdf-converter/0.28.16/flexmark-pdf-converter-0.28.16.pom"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-all" conf="default, compile, runtime, master" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<artifacts>
+					<artifact name="flexmark-pdf-converter" type="jar" ext="jar" status="no" details="" size="4405" time="0" location="/root/.ivy2/cache/com.vladsch.flexmark/flexmark-pdf-converter/jars/flexmark-pdf-converter-0.28.16.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-pdf-converter/0.28.16/flexmark-pdf-converter-0.28.16.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.openhtmltopdf" name="openhtmltopdf-jsoup-dom-converter">
+			<revision name="0.0.1-RC9" status="release" pubdate="20170210224210" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="41">
+				<license name="GNU Lesser General Public License (LGPL), version 2.1 or later" url="http://www.gnu.org/licenses/lgpl.html"/>
+				<metadata-artifact status="no" details="" size="3321" time="0" location="/root/.ivy2/cache/com.openhtmltopdf/openhtmltopdf-jsoup-dom-converter/ivy-0.0.1-RC9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/openhtmltopdf/openhtmltopdf-jsoup-dom-converter/0.0.1-RC9/openhtmltopdf-jsoup-dom-converter-0.0.1-RC9.pom"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-pdf-converter" conf="compile, runtime" rev="0.0.1-RC9" rev-constraint-default="0.0.1-RC9" rev-constraint-dynamic="0.0.1-RC9" callerrev="0.28.16"/>
+				<artifacts>
+					<artifact name="openhtmltopdf-jsoup-dom-converter" type="jar" ext="jar" status="no" details="" size="19963" time="0" location="/root/.ivy2/cache/com.openhtmltopdf/openhtmltopdf-jsoup-dom-converter/jars/openhtmltopdf-jsoup-dom-converter-0.0.1-RC9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/openhtmltopdf/openhtmltopdf-jsoup-dom-converter/0.0.1-RC9/openhtmltopdf-jsoup-dom-converter-0.0.1-RC9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.openhtmltopdf" name="openhtmltopdf-rtl-support">
+			<revision name="0.0.1-RC9" status="release" pubdate="20170210224208" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="39">
+				<license name="GNU Lesser General Public License (LGPL), version 2.1 or later" url="http://www.gnu.org/licenses/lgpl.html"/>
+				<metadata-artifact status="no" details="" size="3438" time="0" location="/root/.ivy2/cache/com.openhtmltopdf/openhtmltopdf-rtl-support/ivy-0.0.1-RC9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/openhtmltopdf/openhtmltopdf-rtl-support/0.0.1-RC9/openhtmltopdf-rtl-support-0.0.1-RC9.pom"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-pdf-converter" conf="compile, runtime" rev="0.0.1-RC9" rev-constraint-default="0.0.1-RC9" rev-constraint-dynamic="0.0.1-RC9" callerrev="0.28.16"/>
+				<artifacts>
+					<artifact name="openhtmltopdf-rtl-support" type="jar" ext="jar" status="no" details="" size="24504" time="0" location="/root/.ivy2/cache/com.openhtmltopdf/openhtmltopdf-rtl-support/jars/openhtmltopdf-rtl-support-0.0.1-RC9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/openhtmltopdf/openhtmltopdf-rtl-support/0.0.1-RC9/openhtmltopdf-rtl-support-0.0.1-RC9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.ibm.icu" name="icu4j">
+			<revision name="58.1" status="release" pubdate="20161020013021" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://icu-project.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="40">
+				<license name="ICU License" url="http://source.icu-project.org/repos/icu/icu/trunk/LICENSE"/>
+				<metadata-artifact status="no" details="" size="2583" time="0" location="/root/.ivy2/cache/com.ibm.icu/icu4j/ivy-58.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/ibm/icu/icu4j/58.1/icu4j-58.1.pom"/>
+				<caller organisation="com.openhtmltopdf" name="openhtmltopdf-rtl-support" conf="compile, runtime" rev="58.1" rev-constraint-default="58.1" rev-constraint-dynamic="58.1" callerrev="0.0.1-RC9"/>
+				<artifacts>
+					<artifact name="icu4j" type="jar" ext="jar" status="no" details="" size="11667264" time="0" location="/root/.ivy2/cache/com.ibm.icu/icu4j/jars/icu4j-58.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/ibm/icu/icu4j/58.1/icu4j-58.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.openhtmltopdf" name="openhtmltopdf-pdfbox">
+			<revision name="0.0.1-RC9" status="release" pubdate="20170210224203" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="35">
+				<license name="GNU Lesser General Public License (LGPL), version 2.1 or later" url="http://www.gnu.org/licenses/lgpl.html"/>
+				<metadata-artifact status="no" details="" size="3416" time="0" location="/root/.ivy2/cache/com.openhtmltopdf/openhtmltopdf-pdfbox/ivy-0.0.1-RC9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/openhtmltopdf/openhtmltopdf-pdfbox/0.0.1-RC9/openhtmltopdf-pdfbox-0.0.1-RC9.pom"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-pdf-converter" conf="compile, runtime" rev="0.0.1-RC9" rev-constraint-default="0.0.1-RC9" rev-constraint-dynamic="0.0.1-RC9" callerrev="0.28.16"/>
+				<artifacts>
+					<artifact name="openhtmltopdf-pdfbox" type="jar" ext="jar" status="no" details="" size="122251" time="0" location="/root/.ivy2/cache/com.openhtmltopdf/openhtmltopdf-pdfbox/jars/openhtmltopdf-pdfbox-0.0.1-RC9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/openhtmltopdf/openhtmltopdf-pdfbox/0.0.1-RC9/openhtmltopdf-pdfbox-0.0.1-RC9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.pdfbox" name="pdfbox">
+			<revision name="2.0.4" status="release" pubdate="20161212114222" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="36">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="7879" time="0" location="/root/.ivy2/cache/org.apache.pdfbox/pdfbox/ivy-2.0.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/pdfbox/pdfbox/2.0.4/pdfbox-2.0.4.pom"/>
+				<caller organisation="com.openhtmltopdf" name="openhtmltopdf-pdfbox" conf="compile, runtime" rev="2.0.4" rev-constraint-default="2.0.4" rev-constraint-dynamic="2.0.4" callerrev="0.0.1-RC9"/>
+				<artifacts>
+					<artifact name="pdfbox" type="bundle" ext="jar" status="no" details="" size="2450391" time="0" location="/root/.ivy2/cache/org.apache.pdfbox/pdfbox/bundles/pdfbox-2.0.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/pdfbox/pdfbox/2.0.4/pdfbox-2.0.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.pdfbox" name="fontbox">
+			<revision name="2.0.4" status="release" pubdate="20161212113826" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://pdfbox.apache.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="37">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6772" time="0" location="/root/.ivy2/cache/org.apache.pdfbox/fontbox/ivy-2.0.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/pdfbox/fontbox/2.0.4/fontbox-2.0.4.pom"/>
+				<caller organisation="org.apache.pdfbox" name="pdfbox" conf="compile, runtime" rev="2.0.4" rev-constraint-default="2.0.4" rev-constraint-dynamic="2.0.4" callerrev="2.0.4"/>
+				<artifacts>
+					<artifact name="fontbox" type="bundle" ext="jar" status="no" details="" size="1477887" time="0" location="/root/.ivy2/cache/org.apache.pdfbox/fontbox/bundles/fontbox-2.0.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/pdfbox/fontbox/2.0.4/fontbox-2.0.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-logging" name="commons-logging">
+			<revision name="1.2" status="release" pubdate="20140705131228" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-logging/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="38">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="11623" time="0" location="/root/.ivy2/cache/commons-logging/commons-logging/ivy-1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.pom"/>
+				<caller organisation="org.apache.pdfbox" name="pdfbox" conf="compile, runtime" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="2.0.4"/>
+				<caller organisation="org.apache.pdfbox" name="fontbox" conf="compile, runtime" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="2.0.4"/>
+				<artifacts>
+					<artifact name="commons-logging" type="jar" ext="jar" status="no" details="" size="61829" time="0" location="/root/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.openhtmltopdf" name="openhtmltopdf-core">
+			<revision name="0.0.1-RC9" status="release" pubdate="20170210224156" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="34">
+				<license name="GNU Lesser General Public License (LGPL), version 2.1 or later" url="http://www.gnu.org/licenses/lgpl.html"/>
+				<metadata-artifact status="no" details="" size="3248" time="0" location="/root/.ivy2/cache/com.openhtmltopdf/openhtmltopdf-core/ivy-0.0.1-RC9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/openhtmltopdf/openhtmltopdf-core/0.0.1-RC9/openhtmltopdf-core-0.0.1-RC9.pom"/>
+				<caller organisation="com.openhtmltopdf" name="openhtmltopdf-rtl-support" conf="compile, runtime" rev="0.0.1-RC9" rev-constraint-default="0.0.1-RC9" rev-constraint-dynamic="0.0.1-RC9" callerrev="0.0.1-RC9"/>
+				<caller organisation="com.openhtmltopdf" name="openhtmltopdf-pdfbox" conf="compile, runtime" rev="0.0.1-RC9" rev-constraint-default="0.0.1-RC9" rev-constraint-dynamic="0.0.1-RC9" callerrev="0.0.1-RC9"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-pdf-converter" conf="compile, runtime" rev="0.0.1-RC9" rev-constraint-default="0.0.1-RC9" rev-constraint-dynamic="0.0.1-RC9" callerrev="0.28.16"/>
+				<artifacts>
+					<artifact name="openhtmltopdf-core" type="jar" ext="jar" status="no" details="" size="1231357" time="0" location="/root/.ivy2/cache/com.openhtmltopdf/openhtmltopdf-core/jars/openhtmltopdf-core-0.0.1-RC9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/openhtmltopdf/openhtmltopdf-core/0.0.1-RC9/openhtmltopdf-core-0.0.1-RC9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.vladsch.flexmark" name="flexmark-html-parser">
+			<revision name="0.28.16" status="release" pubdate="20171207151945" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="31">
+				<license name="BSD 2-Clause License" url="http://opensource.org/licenses/BSD-2-Clause"/>
+				<metadata-artifact status="no" details="" size="11014" time="0" location="/root/.ivy2/cache/com.vladsch.flexmark/flexmark-html-parser/ivy-0.28.16.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-html-parser/0.28.16/flexmark-html-parser-0.28.16.pom"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-all" conf="default, compile, runtime, master" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<artifacts>
+					<artifact name="flexmark-html-parser" type="jar" ext="jar" status="no" details="" size="29135" time="0" location="/root/.ivy2/cache/com.vladsch.flexmark/flexmark-html-parser/jars/flexmark-html-parser-0.28.16.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-html-parser/0.28.16/flexmark-html-parser-0.28.16.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.jsoup" name="jsoup">
+			<revision name="1.10.2" status="release" pubdate="20170102134116" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://jsoup.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="32">
+				<license name="The MIT License" url="https://jsoup.org/license"/>
+				<metadata-artifact status="no" details="" size="3489" time="0" location="/root/.ivy2/cache/org.jsoup/jsoup/ivy-1.10.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/jsoup/jsoup/1.10.2/jsoup-1.10.2.pom"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-html-parser" conf="compile, runtime" rev="1.10.2" rev-constraint-default="1.10.2" rev-constraint-dynamic="1.10.2" callerrev="0.28.16"/>
+				<caller organisation="com.openhtmltopdf" name="openhtmltopdf-jsoup-dom-converter" conf="compile, runtime" rev="1.8.3" rev-constraint-default="1.8.3" rev-constraint-dynamic="1.8.3" callerrev="0.0.1-RC9"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-pdf-converter" conf="compile, runtime" rev="1.10.2" rev-constraint-default="1.10.2" rev-constraint-dynamic="1.10.2" callerrev="0.28.16"/>
+				<artifacts>
+					<artifact name="jsoup" type="jar" ext="jar" status="no" details="" size="350645" time="0" location="/root/.ivy2/cache/org.jsoup/jsoup/jars/jsoup-1.10.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/jsoup/jsoup/1.10.2/jsoup-1.10.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.8.3" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="1.10.2"/>
+				<caller organisation="com.openhtmltopdf" name="openhtmltopdf-jsoup-dom-converter" conf="compile, runtime" rev="1.8.3" rev-constraint-default="1.8.3" rev-constraint-dynamic="1.8.3" callerrev="0.0.1-RC9"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.vladsch.flexmark" name="flexmark-ext-youtube-embedded">
+			<revision name="0.28.16" status="release" pubdate="20171207151957" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="30">
+				<license name="BSD 2-Clause License" url="http://opensource.org/licenses/BSD-2-Clause"/>
+				<metadata-artifact status="no" details="" size="10516" time="0" location="/root/.ivy2/cache/com.vladsch.flexmark/flexmark-ext-youtube-embedded/ivy-0.28.16.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-youtube-embedded/0.28.16/flexmark-ext-youtube-embedded-0.28.16.pom"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-all" conf="default, compile, runtime, master" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<artifacts>
+					<artifact name="flexmark-ext-youtube-embedded" type="jar" ext="jar" status="no" details="" size="12032" time="0" location="/root/.ivy2/cache/com.vladsch.flexmark/flexmark-ext-youtube-embedded/jars/flexmark-ext-youtube-embedded-0.28.16.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-youtube-embedded/0.28.16/flexmark-ext-youtube-embedded-0.28.16.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.vladsch.flexmark" name="flexmark-ext-toc">
+			<revision name="0.28.16" status="release" pubdate="20171207152003" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="29">
+				<license name="BSD 2-Clause License" url="http://opensource.org/licenses/BSD-2-Clause"/>
+				<metadata-artifact status="no" details="" size="10994" time="0" location="/root/.ivy2/cache/com.vladsch.flexmark/flexmark-ext-toc/ivy-0.28.16.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-toc/0.28.16/flexmark-ext-toc-0.28.16.pom"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-profile-pegdown" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-all" conf="default, compile, runtime, master" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<artifacts>
+					<artifact name="flexmark-ext-toc" type="jar" ext="jar" status="no" details="" size="88392" time="0" location="/root/.ivy2/cache/com.vladsch.flexmark/flexmark-ext-toc/jars/flexmark-ext-toc-0.28.16.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-toc/0.28.16/flexmark-ext-toc-0.28.16.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.vladsch.flexmark" name="flexmark-ext-xwiki-macros">
+			<revision name="0.28.16" status="release" pubdate="20171207152018" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="28">
+				<license name="BSD 2-Clause License" url="http://opensource.org/licenses/BSD-2-Clause"/>
+				<metadata-artifact status="no" details="" size="10900" time="0" location="/root/.ivy2/cache/com.vladsch.flexmark/flexmark-ext-xwiki-macros/ivy-0.28.16.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-xwiki-macros/0.28.16/flexmark-ext-xwiki-macros-0.28.16.pom"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-all" conf="default, compile, runtime, master" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<artifacts>
+					<artifact name="flexmark-ext-xwiki-macros" type="jar" ext="jar" status="no" details="" size="30937" time="0" location="/root/.ivy2/cache/com.vladsch.flexmark/flexmark-ext-xwiki-macros/jars/flexmark-ext-xwiki-macros-0.28.16.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-xwiki-macros/0.28.16/flexmark-ext-xwiki-macros-0.28.16.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.vladsch.flexmark" name="flexmark-ext-jekyll-tag">
+			<revision name="0.28.16" status="release" pubdate="20171207152012" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="27">
+				<license name="BSD 2-Clause License" url="http://opensource.org/licenses/BSD-2-Clause"/>
+				<metadata-artifact status="no" details="" size="10881" time="0" location="/root/.ivy2/cache/com.vladsch.flexmark/flexmark-ext-jekyll-tag/ivy-0.28.16.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-jekyll-tag/0.28.16/flexmark-ext-jekyll-tag-0.28.16.pom"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-all" conf="default, compile, runtime, master" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<artifacts>
+					<artifact name="flexmark-ext-jekyll-tag" type="jar" ext="jar" status="no" details="" size="21092" time="0" location="/root/.ivy2/cache/com.vladsch.flexmark/flexmark-ext-jekyll-tag/jars/flexmark-ext-jekyll-tag-0.28.16.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-jekyll-tag/0.28.16/flexmark-ext-jekyll-tag-0.28.16.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.vladsch.flexmark" name="flexmark-ext-jekyll-front-matter">
+			<revision name="0.28.16" status="release" pubdate="20171207151950" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="25">
+				<license name="BSD 2-Clause License" url="http://opensource.org/licenses/BSD-2-Clause"/>
+				<metadata-artifact status="no" details="" size="11071" time="0" location="/root/.ivy2/cache/com.vladsch.flexmark/flexmark-ext-jekyll-front-matter/ivy-0.28.16.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-jekyll-front-matter/0.28.16/flexmark-ext-jekyll-front-matter-0.28.16.pom"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-profile-pegdown" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-all" conf="default, compile, runtime, master" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<artifacts>
+					<artifact name="flexmark-ext-jekyll-front-matter" type="jar" ext="jar" status="no" details="" size="18226" time="0" location="/root/.ivy2/cache/com.vladsch.flexmark/flexmark-ext-jekyll-front-matter/jars/flexmark-ext-jekyll-front-matter-0.28.16.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-jekyll-front-matter/0.28.16/flexmark-ext-jekyll-front-matter-0.28.16.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.vladsch.flexmark" name="flexmark-ext-yaml-front-matter">
+			<revision name="0.28.16" status="release" pubdate="20171207152007" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="26">
+				<license name="BSD 2-Clause License" url="http://opensource.org/licenses/BSD-2-Clause"/>
+				<metadata-artifact status="no" details="" size="10894" time="0" location="/root/.ivy2/cache/com.vladsch.flexmark/flexmark-ext-yaml-front-matter/ivy-0.28.16.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-yaml-front-matter/0.28.16/flexmark-ext-yaml-front-matter-0.28.16.pom"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-all" conf="default, compile, runtime, master" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-jekyll-front-matter" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<artifacts>
+					<artifact name="flexmark-ext-yaml-front-matter" type="jar" ext="jar" status="no" details="" size="16996" time="0" location="/root/.ivy2/cache/com.vladsch.flexmark/flexmark-ext-yaml-front-matter/jars/flexmark-ext-yaml-front-matter-0.28.16.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-yaml-front-matter/0.28.16/flexmark-ext-yaml-front-matter-0.28.16.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.vladsch.flexmark" name="flexmark-ext-gfm-users">
+			<revision name="0.28.16" status="release" pubdate="20171207152016" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="24">
+				<license name="BSD 2-Clause License" url="http://opensource.org/licenses/BSD-2-Clause"/>
+				<metadata-artifact status="no" details="" size="10879" time="0" location="/root/.ivy2/cache/com.vladsch.flexmark/flexmark-ext-gfm-users/ivy-0.28.16.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-users/0.28.16/flexmark-ext-gfm-users-0.28.16.pom"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-all" conf="default, compile, runtime, master" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<artifacts>
+					<artifact name="flexmark-ext-gfm-users" type="jar" ext="jar" status="no" details="" size="15642" time="0" location="/root/.ivy2/cache/com.vladsch.flexmark/flexmark-ext-gfm-users/jars/flexmark-ext-gfm-users-0.28.16.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-users/0.28.16/flexmark-ext-gfm-users-0.28.16.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.vladsch.flexmark" name="flexmark-ext-gfm-tasklist">
+			<revision name="0.28.16" status="release" pubdate="20171207152020" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="23">
+				<license name="BSD 2-Clause License" url="http://opensource.org/licenses/BSD-2-Clause"/>
+				<metadata-artifact status="no" details="" size="10934" time="0" location="/root/.ivy2/cache/com.vladsch.flexmark/flexmark-ext-gfm-tasklist/ivy-0.28.16.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tasklist/0.28.16/flexmark-ext-gfm-tasklist-0.28.16.pom"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-profile-pegdown" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-all" conf="default, compile, runtime, master" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<artifacts>
+					<artifact name="flexmark-ext-gfm-tasklist" type="jar" ext="jar" status="no" details="" size="28484" time="0" location="/root/.ivy2/cache/com.vladsch.flexmark/flexmark-ext-gfm-tasklist/jars/flexmark-ext-gfm-tasklist-0.28.16.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tasklist/0.28.16/flexmark-ext-gfm-tasklist-0.28.16.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.vladsch.flexmark" name="flexmark-ext-gfm-tables">
+			<revision name="0.28.16" status="release" pubdate="20171207152009" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="22">
+				<license name="BSD 2-Clause License" url="http://opensource.org/licenses/BSD-2-Clause"/>
+				<metadata-artifact status="no" details="" size="10926" time="0" location="/root/.ivy2/cache/com.vladsch.flexmark/flexmark-ext-gfm-tables/ivy-0.28.16.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tables/0.28.16/flexmark-ext-gfm-tables-0.28.16.pom"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-all" conf="default, compile, runtime, master" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<artifacts>
+					<artifact name="flexmark-ext-gfm-tables" type="jar" ext="jar" status="no" details="" size="33826" time="0" location="/root/.ivy2/cache/com.vladsch.flexmark/flexmark-ext-gfm-tables/jars/flexmark-ext-gfm-tables-0.28.16.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tables/0.28.16/flexmark-ext-gfm-tables-0.28.16.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.vladsch.flexmark" name="flexmark-ext-gfm-issues">
+			<revision name="0.28.16" status="release" pubdate="20171207152013" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="21">
+				<license name="BSD 2-Clause License" url="http://opensource.org/licenses/BSD-2-Clause"/>
+				<metadata-artifact status="no" details="" size="10882" time="0" location="/root/.ivy2/cache/com.vladsch.flexmark/flexmark-ext-gfm-issues/ivy-0.28.16.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-issues/0.28.16/flexmark-ext-gfm-issues-0.28.16.pom"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-all" conf="default, compile, runtime, master" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<artifacts>
+					<artifact name="flexmark-ext-gfm-issues" type="jar" ext="jar" status="no" details="" size="15678" time="0" location="/root/.ivy2/cache/com.vladsch.flexmark/flexmark-ext-gfm-issues/jars/flexmark-ext-gfm-issues-0.28.16.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-issues/0.28.16/flexmark-ext-gfm-issues-0.28.16.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.vladsch.flexmark" name="flexmark-ext-footnotes">
+			<revision name="0.28.16" status="release" pubdate="20171207152011" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="20">
+				<license name="BSD 2-Clause License" url="http://opensource.org/licenses/BSD-2-Clause"/>
+				<metadata-artifact status="no" details="" size="10909" time="0" location="/root/.ivy2/cache/com.vladsch.flexmark/flexmark-ext-footnotes/ivy-0.28.16.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-footnotes/0.28.16/flexmark-ext-footnotes-0.28.16.pom"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-profile-pegdown" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-all" conf="default, compile, runtime, master" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<artifacts>
+					<artifact name="flexmark-ext-footnotes" type="jar" ext="jar" status="no" details="" size="37907" time="0" location="/root/.ivy2/cache/com.vladsch.flexmark/flexmark-ext-footnotes/jars/flexmark-ext-footnotes-0.28.16.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-footnotes/0.28.16/flexmark-ext-footnotes-0.28.16.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.vladsch.flexmark" name="flexmark-ext-escaped-character">
+			<revision name="0.28.16" status="release" pubdate="20171207152020" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="19">
+				<license name="BSD 2-Clause License" url="http://opensource.org/licenses/BSD-2-Clause"/>
+				<metadata-artifact status="no" details="" size="10894" time="0" location="/root/.ivy2/cache/com.vladsch.flexmark/flexmark-ext-escaped-character/ivy-0.28.16.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-escaped-character/0.28.16/flexmark-ext-escaped-character-0.28.16.pom"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-profile-pegdown" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-all" conf="default, compile, runtime, master" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<artifacts>
+					<artifact name="flexmark-ext-escaped-character" type="jar" ext="jar" status="no" details="" size="12806" time="0" location="/root/.ivy2/cache/com.vladsch.flexmark/flexmark-ext-escaped-character/jars/flexmark-ext-escaped-character-0.28.16.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-escaped-character/0.28.16/flexmark-ext-escaped-character-0.28.16.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.vladsch.flexmark" name="flexmark-ext-emoji">
+			<revision name="0.28.16" status="release" pubdate="20171207152021" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="18">
+				<license name="BSD 2-Clause License" url="http://opensource.org/licenses/BSD-2-Clause"/>
+				<metadata-artifact status="no" details="" size="11094" time="0" location="/root/.ivy2/cache/com.vladsch.flexmark/flexmark-ext-emoji/ivy-0.28.16.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-emoji/0.28.16/flexmark-ext-emoji-0.28.16.pom"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-profile-pegdown" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-all" conf="default, compile, runtime, master" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-html-parser" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<artifacts>
+					<artifact name="flexmark-ext-emoji" type="jar" ext="jar" status="no" details="" size="48197" time="0" location="/root/.ivy2/cache/com.vladsch.flexmark/flexmark-ext-emoji/jars/flexmark-ext-emoji-0.28.16.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-emoji/0.28.16/flexmark-ext-emoji-0.28.16.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.vladsch.flexmark" name="flexmark-ext-definition">
+			<revision name="0.28.16" status="release" pubdate="20171207151951" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="17">
+				<license name="BSD 2-Clause License" url="http://opensource.org/licenses/BSD-2-Clause"/>
+				<metadata-artifact status="no" details="" size="10873" time="0" location="/root/.ivy2/cache/com.vladsch.flexmark/flexmark-ext-definition/ivy-0.28.16.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-definition/0.28.16/flexmark-ext-definition-0.28.16.pom"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-profile-pegdown" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-all" conf="default, compile, runtime, master" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<artifacts>
+					<artifact name="flexmark-ext-definition" type="jar" ext="jar" status="no" details="" size="37791" time="0" location="/root/.ivy2/cache/com.vladsch.flexmark/flexmark-ext-definition/jars/flexmark-ext-definition-0.28.16.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-definition/0.28.16/flexmark-ext-definition-0.28.16.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.vladsch.flexmark" name="flexmark-ext-aside">
+			<revision name="0.28.16" status="release" pubdate="20171207152017" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="13">
+				<license name="BSD 2-Clause License" url="http://opensource.org/licenses/BSD-2-Clause"/>
+				<metadata-artifact status="no" details="" size="11043" time="0" location="/root/.ivy2/cache/com.vladsch.flexmark/flexmark-ext-aside/ivy-0.28.16.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-aside/0.28.16/flexmark-ext-aside-0.28.16.pom"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-profile-pegdown" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-all" conf="default, compile, runtime, master" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<artifacts>
+					<artifact name="flexmark-ext-aside" type="jar" ext="jar" status="no" details="" size="14636" time="0" location="/root/.ivy2/cache/com.vladsch.flexmark/flexmark-ext-aside/jars/flexmark-ext-aside-0.28.16.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-aside/0.28.16/flexmark-ext-aside-0.28.16.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.vladsch.flexmark" name="flexmark-ext-anchorlink">
+			<revision name="0.28.16" status="release" pubdate="20171207152005" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
+				<license name="BSD 2-Clause License" url="http://opensource.org/licenses/BSD-2-Clause"/>
+				<metadata-artifact status="no" details="" size="11074" time="0" location="/root/.ivy2/cache/com.vladsch.flexmark/flexmark-ext-anchorlink/ivy-0.28.16.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-anchorlink/0.28.16/flexmark-ext-anchorlink-0.28.16.pom"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-profile-pegdown" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-all" conf="default, compile, runtime, master" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<artifacts>
+					<artifact name="flexmark-ext-anchorlink" type="jar" ext="jar" status="no" details="" size="16745" time="0" location="/root/.ivy2/cache/com.vladsch.flexmark/flexmark-ext-anchorlink/jars/flexmark-ext-anchorlink-0.28.16.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-anchorlink/0.28.16/flexmark-ext-anchorlink-0.28.16.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.vladsch.flexmark" name="flexmark-jira-converter">
+			<revision name="0.28.16" status="release" pubdate="20171207152024" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="14">
+				<license name="BSD 2-Clause License" url="http://opensource.org/licenses/BSD-2-Clause"/>
+				<metadata-artifact status="no" details="" size="11669" time="0" location="/root/.ivy2/cache/com.vladsch.flexmark/flexmark-jira-converter/ivy-0.28.16.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-jira-converter/0.28.16/flexmark-jira-converter-0.28.16.pom"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-aside" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-all" conf="default, compile, runtime, master" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-emoji" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<artifacts>
+					<artifact name="flexmark-jira-converter" type="jar" ext="jar" status="no" details="" size="39383" time="0" location="/root/.ivy2/cache/com.vladsch.flexmark/flexmark-jira-converter/jars/flexmark-jira-converter-0.28.16.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-jira-converter/0.28.16/flexmark-jira-converter-0.28.16.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.vladsch.flexmark" name="flexmark-ext-wikilink">
+			<revision name="0.28.16" status="release" pubdate="20171207152014" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="16">
+				<license name="BSD 2-Clause License" url="http://opensource.org/licenses/BSD-2-Clause"/>
+				<metadata-artifact status="no" details="" size="11029" time="0" location="/root/.ivy2/cache/com.vladsch.flexmark/flexmark-ext-wikilink/ivy-0.28.16.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-wikilink/0.28.16/flexmark-ext-wikilink-0.28.16.pom"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-profile-pegdown" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-all" conf="default, compile, runtime, master" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-jira-converter" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<artifacts>
+					<artifact name="flexmark-ext-wikilink" type="jar" ext="jar" status="no" details="" size="25021" time="0" location="/root/.ivy2/cache/com.vladsch.flexmark/flexmark-ext-wikilink/jars/flexmark-ext-wikilink-0.28.16.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-wikilink/0.28.16/flexmark-ext-wikilink-0.28.16.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.vladsch.flexmark" name="flexmark-ext-tables">
+			<revision name="0.28.16" status="release" pubdate="20171207152003" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="15">
+				<license name="BSD 2-Clause License" url="http://opensource.org/licenses/BSD-2-Clause"/>
+				<metadata-artifact status="no" details="" size="10932" time="0" location="/root/.ivy2/cache/com.vladsch.flexmark/flexmark-ext-tables/ivy-0.28.16.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-tables/0.28.16/flexmark-ext-tables-0.28.16.pom"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-youtrack-converter" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-profile-pegdown" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-all" conf="default, compile, runtime, master" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-jira-converter" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<artifacts>
+					<artifact name="flexmark-ext-tables" type="jar" ext="jar" status="no" details="" size="61456" time="0" location="/root/.ivy2/cache/com.vladsch.flexmark/flexmark-ext-tables/jars/flexmark-ext-tables-0.28.16.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-tables/0.28.16/flexmark-ext-tables-0.28.16.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.vladsch.flexmark" name="flexmark-ext-abbreviation">
+			<revision name="0.28.16" status="release" pubdate="20171207152002" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<license name="BSD 2-Clause License" url="http://opensource.org/licenses/BSD-2-Clause"/>
+				<metadata-artifact status="no" details="" size="11834" time="0" location="/root/.ivy2/cache/com.vladsch.flexmark/flexmark-ext-abbreviation/ivy-0.28.16.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-abbreviation/0.28.16/flexmark-ext-abbreviation-0.28.16.pom"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-profile-pegdown" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-all" conf="default, compile, runtime, master" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<artifacts>
+					<artifact name="flexmark-ext-abbreviation" type="jar" ext="jar" status="no" details="" size="33285" time="0" location="/root/.ivy2/cache/com.vladsch.flexmark/flexmark-ext-abbreviation/jars/flexmark-ext-abbreviation-0.28.16.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-abbreviation/0.28.16/flexmark-ext-abbreviation-0.28.16.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.vladsch.flexmark" name="flexmark-ext-superscript">
+			<revision name="0.28.16" status="release" pubdate="20171207152026" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+				<license name="BSD 2-Clause License" url="http://opensource.org/licenses/BSD-2-Clause"/>
+				<metadata-artifact status="no" details="" size="10876" time="0" location="/root/.ivy2/cache/com.vladsch.flexmark/flexmark-ext-superscript/ivy-0.28.16.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-superscript/0.28.16/flexmark-ext-superscript-0.28.16.pom"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-abbreviation" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-profile-pegdown" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-all" conf="default, compile, runtime, master" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-jira-converter" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<artifacts>
+					<artifact name="flexmark-ext-superscript" type="jar" ext="jar" status="no" details="" size="13340" time="0" location="/root/.ivy2/cache/com.vladsch.flexmark/flexmark-ext-superscript/jars/flexmark-ext-superscript-0.28.16.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-superscript/0.28.16/flexmark-ext-superscript-0.28.16.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.vladsch.flexmark" name="flexmark-ext-gfm-strikethrough">
+			<revision name="0.28.16" status="release" pubdate="20171207152015" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
+				<license name="BSD 2-Clause License" url="http://opensource.org/licenses/BSD-2-Clause"/>
+				<metadata-artifact status="no" details="" size="10930" time="0" location="/root/.ivy2/cache/com.vladsch.flexmark/flexmark-ext-gfm-strikethrough/ivy-0.28.16.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-strikethrough/0.28.16/flexmark-ext-gfm-strikethrough-0.28.16.pom"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-abbreviation" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-youtrack-converter" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-profile-pegdown" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-all" conf="default, compile, runtime, master" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-jira-converter" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<artifacts>
+					<artifact name="flexmark-ext-gfm-strikethrough" type="jar" ext="jar" status="no" details="" size="28532" time="0" location="/root/.ivy2/cache/com.vladsch.flexmark/flexmark-ext-gfm-strikethrough/jars/flexmark-ext-gfm-strikethrough-0.28.16.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-strikethrough/0.28.16/flexmark-ext-gfm-strikethrough-0.28.16.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.vladsch.flexmark" name="flexmark-ext-ins">
+			<revision name="0.28.16" status="release" pubdate="20171207152010" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
+				<license name="BSD 2-Clause License" url="http://opensource.org/licenses/BSD-2-Clause"/>
+				<metadata-artifact status="no" details="" size="10852" time="0" location="/root/.ivy2/cache/com.vladsch.flexmark/flexmark-ext-ins/ivy-0.28.16.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-ins/0.28.16/flexmark-ext-ins-0.28.16.pom"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-abbreviation" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-profile-pegdown" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-all" conf="default, compile, runtime, master" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-jira-converter" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<artifacts>
+					<artifact name="flexmark-ext-ins" type="jar" ext="jar" status="no" details="" size="13014" time="0" location="/root/.ivy2/cache/com.vladsch.flexmark/flexmark-ext-ins/jars/flexmark-ext-ins-0.28.16.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-ins/0.28.16/flexmark-ext-ins-0.28.16.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.vladsch.flexmark" name="flexmark-ext-typographic">
+			<revision name="0.28.16" status="release" pubdate="20171207152025" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+				<license name="BSD 2-Clause License" url="http://opensource.org/licenses/BSD-2-Clause"/>
+				<metadata-artifact status="no" details="" size="10876" time="0" location="/root/.ivy2/cache/com.vladsch.flexmark/flexmark-ext-typographic/ivy-0.28.16.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-typographic/0.28.16/flexmark-ext-typographic-0.28.16.pom"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-abbreviation" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-profile-pegdown" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-all" conf="default, compile, runtime, master" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<artifacts>
+					<artifact name="flexmark-ext-typographic" type="jar" ext="jar" status="no" details="" size="21973" time="0" location="/root/.ivy2/cache/com.vladsch.flexmark/flexmark-ext-typographic/jars/flexmark-ext-typographic-0.28.16.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-typographic/0.28.16/flexmark-ext-typographic-0.28.16.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.vladsch.flexmark" name="flexmark-ext-autolink">
+			<revision name="0.28.16" status="release" pubdate="20171207151958" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+				<license name="BSD 2-Clause License" url="http://opensource.org/licenses/BSD-2-Clause"/>
+				<metadata-artifact status="no" details="" size="11126" time="0" location="/root/.ivy2/cache/com.vladsch.flexmark/flexmark-ext-autolink/ivy-0.28.16.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-autolink/0.28.16/flexmark-ext-autolink-0.28.16.pom"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-abbreviation" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-profile-pegdown" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-all" conf="default, compile, runtime, master" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<artifacts>
+					<artifact name="flexmark-ext-autolink" type="jar" ext="jar" status="no" details="" size="6402" time="0" location="/root/.ivy2/cache/com.vladsch.flexmark/flexmark-ext-autolink/jars/flexmark-ext-autolink-0.28.16.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-autolink/0.28.16/flexmark-ext-autolink-0.28.16.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.vladsch.flexmark" name="flexmark-formatter">
+			<revision name="0.28.16" status="release" pubdate="20171207152017" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<license name="BSD 2-Clause License" url="http://opensource.org/licenses/BSD-2-Clause"/>
+				<metadata-artifact status="no" details="" size="10703" time="0" location="/root/.ivy2/cache/com.vladsch.flexmark/flexmark-formatter/ivy-0.28.16.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-formatter/0.28.16/flexmark-formatter-0.28.16.pom"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-wikilink" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-gfm-strikethrough" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-gfm-issues" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-autolink" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-escaped-character" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-tables" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-emoji" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-anchorlink" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-jekyll-front-matter" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-toc" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-xwiki-macros" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-gfm-users" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-abbreviation" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-footnotes" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-jekyll-tag" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-gfm-tables" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-gfm-tasklist" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-aside" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-ins" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-superscript" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-definition" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-all" conf="default, compile, runtime, master" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-typographic" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-yaml-front-matter" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<artifacts>
+					<artifact name="flexmark-formatter" type="jar" ext="jar" status="no" details="" size="73354" time="0" location="/root/.ivy2/cache/com.vladsch.flexmark/flexmark-formatter/jars/flexmark-formatter-0.28.16.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-formatter/0.28.16/flexmark-formatter-0.28.16.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.nibor.autolink" name="autolink">
+			<revision name="0.6.0" status="release" pubdate="20161106064904" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/robinst/autolink-java" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="3275" time="0" location="/root/.ivy2/cache/org.nibor.autolink/autolink/ivy-0.6.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/nibor/autolink/autolink/0.6.0/autolink-0.6.0.pom"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-autolink" conf="compile, runtime" rev="0.6.0" rev-constraint-default="0.6.0" rev-constraint-dynamic="0.6.0" callerrev="0.28.16"/>
+				<artifacts>
+					<artifact name="autolink" type="jar" ext="jar" status="no" details="" size="16098" time="0" location="/root/.ivy2/cache/org.nibor.autolink/autolink/jars/autolink-0.6.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/nibor/autolink/autolink/0.6.0/autolink-0.6.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.vladsch.flexmark" name="flexmark">
+			<revision name="0.28.16" status="release" pubdate="20171207152022" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="BSD 2-Clause License" url="http://opensource.org/licenses/BSD-2-Clause"/>
+				<metadata-artifact status="no" details="" size="10844" time="0" location="/root/.ivy2/cache/com.vladsch.flexmark/flexmark/ivy-0.28.16.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark/0.28.16/flexmark-0.28.16.pom"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-gfm-issues" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-profile-pegdown" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-emoji" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-toc" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-pdf-converter" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-xwiki-macros" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-abbreviation" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-footnotes" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-aside" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-superscript" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-yaml-front-matter" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-wikilink" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-gfm-strikethrough" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-autolink" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-escaped-character" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-jira-converter" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-tables" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-anchorlink" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-jekyll-front-matter" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-gfm-users" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-jekyll-tag" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-youtrack-converter" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-gfm-tables" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-gfm-tasklist" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-formatter" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-youtube-embedded" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-ins" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-definition" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-all" conf="default, compile, runtime, master" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-html-parser" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-typographic" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<artifacts>
+					<artifact name="flexmark" type="jar" ext="jar" status="no" details="" size="389512" time="0" location="/root/.ivy2/cache/com.vladsch.flexmark/flexmark/jars/flexmark-0.28.16.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark/0.28.16/flexmark-0.28.16.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.vladsch.flexmark" name="flexmark-util">
+			<revision name="0.28.16" status="release" pubdate="20171207152000" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<license name="BSD 2-Clause License" url="http://opensource.org/licenses/BSD-2-Clause"/>
+				<metadata-artifact status="no" details="" size="10351" time="0" location="/root/.ivy2/cache/com.vladsch.flexmark/flexmark-util/ivy-0.28.16.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util/0.28.16/flexmark-util-0.28.16.pom"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-gfm-issues" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-profile-pegdown" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-emoji" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-toc" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-pdf-converter" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-xwiki-macros" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-abbreviation" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-footnotes" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-aside" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-superscript" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-yaml-front-matter" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-wikilink" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-gfm-strikethrough" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-autolink" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-escaped-character" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-jira-converter" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-tables" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-anchorlink" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-jekyll-front-matter" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-gfm-users" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-jekyll-tag" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-youtrack-converter" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-gfm-tables" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-gfm-tasklist" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-formatter" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-ins" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-definition" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-all" conf="default, compile, runtime, master" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-html-parser" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-typographic" conf="compile, runtime" rev="0.28.16" rev-constraint-default="0.28.16" rev-constraint-dynamic="0.28.16" callerrev="0.28.16"/>
+				<artifacts>
+					<artifact name="flexmark-util" type="jar" ext="jar" status="no" details="" size="286305" time="0" location="/root/.ivy2/cache/com.vladsch.flexmark/flexmark-util/jars/flexmark-util-0.28.16.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util/0.28.16/flexmark-util-0.28.16.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.11.8" status="release" pubdate="20160304092633" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.8/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2653" time="0" location="/root/.ivy2/cache/org.scala-lang/scala-library/ivy-2.11.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.pom"/>
+				<caller organisation="com.gabechurch" name="parsertest_2.11" conf="compile, runtime" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5744974" time="0" location="/root/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

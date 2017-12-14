@@ -46,3 +46,6 @@ publish
 exit
 publishLocal
 exit
+run
+publish-local
+exit

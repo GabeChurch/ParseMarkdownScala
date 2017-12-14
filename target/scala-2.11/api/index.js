@@ -1,1 +1,1 @@
-Index.PACKAGES = {"com" : [], "com.Gabe" : [], "com.Gabe.Church" : [], "com.Gabe.Church.ParseMarkdown" : [{"object" : "com\/Gabe\/Church\/ParseMarkdown\/parsemarkdown$.html", "name" : "com.Gabe.Church.ParseMarkdown.parsemarkdown"}]};
+Index.PACKAGES = {"com" : [], "com.gabechurch" : [], "com.gabechurch.ParseMarkdown" : [{"object" : "com\/gabechurch\/ParseMarkdown\/parsemarkdown$.html", "name" : "com.gabechurch.ParseMarkdown.parsemarkdown"}]};

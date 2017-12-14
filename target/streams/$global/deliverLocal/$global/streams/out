@@ -1,4 +1,4 @@
-[0m[[0minfo[0m] [0m:: delivering :: com.Gabe.Church#parsertest_2.11;0.1.0 :: 0.1.0 :: release :: Tue Dec 12 17:21:40 CST 2017[0m
-[0m[[0mdebug[0m] [0m	options = status=release pubdate=Tue Dec 12 17:21:40 CST 2017 validate=true resolveDynamicRevisions=true merge=true resolveId=null pubBranch=null[0m
+[0m[[0minfo[0m] [0m:: delivering :: com.gabechurch#parsertest_2.11;0.1.0 :: 0.1.0 :: release :: Wed Dec 13 21:16:40 CST 2017[0m
+[0m[[0mdebug[0m] [0m	options = status=release pubdate=Wed Dec 13 21:16:40 CST 2017 validate=true resolveDynamicRevisions=true merge=true resolveId=null pubBranch=null[0m
 [0m[[0minfo[0m] [0m	delivering ivy file to /home/pimpin/markdown_parser_scala_project/markdown_parse_html/target/scala-2.11/ivy-0.1.0.xml[0m
-[0m[[0mdebug[0m] [0m	deliver done (21ms)[0m
+[0m[[0mdebug[0m] [0m	deliver done (12ms)[0m
