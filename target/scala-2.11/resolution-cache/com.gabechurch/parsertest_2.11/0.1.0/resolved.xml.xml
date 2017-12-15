@@ -4,9 +4,10 @@
 		module="parsertest_2.11"
 		revision="0.1.0"
 		status="integration"
-		publication="20171213211631"
+		publication="20171214202828"
 	>
-		<description>
+		<license name="BSD-style" url="http://www.opensource.org/licenses/bsd-license.php" />
+		<description homepage="http://example.com">
 		ParserTest
 		</description>
 	</info>

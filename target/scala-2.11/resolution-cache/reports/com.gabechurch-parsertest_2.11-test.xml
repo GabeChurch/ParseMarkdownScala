@@ -7,7 +7,7 @@
 		revision="0.1.0"
 		conf="test"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20171213211631"/>
+		date="20171214202828"/>
 	<dependencies>
 		<module organisation="com.vladsch.flexmark" name="flexmark-all">
 			<revision name="0.28.16" status="release" pubdate="20171207152015" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">

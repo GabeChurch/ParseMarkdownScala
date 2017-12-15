@@ -5,11 +5,32 @@
     <artifactId>parsertest_2.11</artifactId>
     <packaging>jar</packaging>
     <description>ParserTest</description>
+    <url>http://example.com</url>
     <version>0.1.0</version>
+    <licenses>
+        <license>
+            <name>BSD-style</name>
+            <url>http://www.opensource.org/licenses/bsd-license.php</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
     <name>ParserTest</name>
     <organization>
         <name>com.gabechurch</name>
+        <url>http://example.com</url>
     </organization>
+    <scm>
+        <url>https://github.com/your-account/your-project</url>
+        <connection>scm:https://github.com/GabeChurch/ParseMarkdownScala.git</connection>
+    </scm>
+    <developers>
+        <developer>
+            <id>com.gabechurch</id>
+            <name>Gabe Church</name>
+            <email>gabe1church@gmail.com</email>
+            <url>http://gabechurch.com</url>
+        </developer>
+    </developers>
     <dependencies>
         <dependency>
             <groupId>org.scala-lang</groupId>

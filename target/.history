@@ -49,3 +49,54 @@ exit
 run
 publish-local
 exit
+pgp-cmd gen-key
+exit
+pgp-cmd gen-key
+set pgpReadOnly := false
+pgp-cmd gen-key
+exit
+publishSigned
+exit
+pgp-cmd send-key gabe1church@gmail.com hkp://pool.sks-keyservers.net
+pgp-cmd send-key gabe1church@gmail.com hkp://keyserver.ubuntu.com
+show */*:pgpSecretRing
+ls
+exit
+show */*:pgpSecretRing
+show */*:pgpPublicRing
+exit
+pgp-cmd gen-key
+publishSigned
+last *:signedArtifacts
+exit
+publish-signed
+show */*:pgpPublicRing
+pgp-cmd send-key keyname hkp://pool.sks-keyservers.net
+pgp-cmd send-key GabeChurch hkp://pool.sks-keyservers.net
+pgp-cmd send-key GabeChurch pgp-cmd send-key keyname hkp://pool.sks-keyservers.net
+pgp-cmd send-key GabeChurch pgp-cmd pgp-cmd send-key keyname hkp://pool.sks-keyservers.net
+pgp-cmd send-key GabeChurch pgp-cmd hkp://keyserver.ubuntu.com
+pgp-cmd send-key GabeChurch hkp://keyserver.ubuntu.com
+pgp-cmd send-key gabe1church@gmail.com hkp://keyserver.ubuntu.com
+pgp-cmd list-keys
+Failed to run pgp-cmd: SendKey(gabe1church@gmail.com,hkp://keyserver.ubuntu.com)
+pgp-cmd: SendKey(gabe1church@gmail.com,hkp://keyserver.ubuntu.com)
+pgp-cmd send-key gabe1church@gmail.com hkp://keyserver.ubuntu.com
+pgp-cmd gen-key
+exit
+pgp-cmd gen-key
+set pgpReadOnly := false
+pgp-cmd list-keys
+exit
+pgp-cmd send-key gabe1church@gmail.com hkp://keyserver.ubuntu.com
+publishSigned
+exit
+publishSigned
+pgp-cmd listkeys
+pgp-cmd list-keys
+publishSigned
+exit
+publishSigned
+exit
+publishSigned
+exit

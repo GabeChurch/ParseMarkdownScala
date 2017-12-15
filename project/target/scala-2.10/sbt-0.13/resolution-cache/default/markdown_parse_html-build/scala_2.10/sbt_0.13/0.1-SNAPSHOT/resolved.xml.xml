@@ -4,7 +4,7 @@
 		module="markdown_parse_html-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20171213211626"
+		publication="20171214202529"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>
@@ -42,5 +42,7 @@
 			<artifact name="global-plugins" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 			<artifact name="global-plugins" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
+		<dependency org="org.xerial.sbt" name="sbt-sonatype" rev="2.0" conf="compile->default(compile)" e:sbtVersion="0.13" e:scalaVersion="2.10"/>
+		<dependency org="com.github.gseitz" name="sbt-release" rev="1.0.7" conf="compile->default(compile)" e:sbtVersion="0.13" e:scalaVersion="2.10"/>
 	</dependencies>
 </ivy-module>
