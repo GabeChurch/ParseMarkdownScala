@@ -29,7 +29,6 @@ developers := List(
   Developer(
     id    = "com.gabechurch",
     name  = "Gabe Church",
-    email = "gabe1church@gmail.com",
     url   = url("http://gabechurch.com")
   )
 )
